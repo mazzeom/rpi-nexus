@@ -4,7 +4,7 @@ MAINTAINER fine <dlgmltjr0925@gmail.com>
 RUN apt update \
  && apt install -y openjdk-8-jdk sudo wget \
  && useradd -M -d /opt/nexus -s /bin/bash -r nexus \
- && echo "nexus   ALL=(ALL)       NOPASSWD: ALL" > /etc/sudoers.d/nexus
+ && echo "nexus   ALL=(ALL)       NOPASSWD: ALL" > /etc/sudoers.d/nexus \
  && mkdir /opt/nexus \
  && chown -R nexus: /opt/nexus
 
