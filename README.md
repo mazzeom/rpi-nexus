@@ -17,7 +17,7 @@ docker push dlgmltjr0925/nexus3:arm64v8-3.30.0-01
 
 ### Run
 
-#### simple
+#### Simple
 
 ```bash
 docker run -d --name nexus3 -p 8081:8081 dlgmltjr0925/nexus3:arm64v8-3.30.0-01
